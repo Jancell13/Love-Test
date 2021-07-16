@@ -7,11 +7,10 @@ body{
     background-color: rgb(248, 172, 232);
 }
 .container{
-    margin: 35% auto;
+    margin: 250px auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 .rect{
     background-color: rgb(218, 121, 231);
