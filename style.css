@@ -11,6 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .rect{
     background-color: rgb(218, 121, 231);
@@ -18,7 +19,6 @@ body{
     width: 60%;
     border-radius: 10px;
     box-shadow: 2px 2px 7px rgb(46, 46, 46);
-    overflow: hidden;
 }
 .title{
     font-family: "Pacifico";
