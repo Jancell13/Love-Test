@@ -8,7 +8,7 @@ body{
     overflow: hidden;
 }
 .container{
-    margin: 35% auto;
+    margin: 100px auto;
     display: flex;
     justify-content: center;
     align-items: center;
