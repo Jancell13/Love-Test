@@ -5,10 +5,9 @@ body{
     padding: 0;
     text-align: center;
     background-color: rgb(248, 172, 232);
-    overflow: hidden;
 }
 .container{
-    margin: 130px auto;
+    margin: 35% auto;
     display: flex;
     justify-content: center;
     align-items: center;
