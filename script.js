@@ -46,8 +46,7 @@ btn.addEventListener("click", () => {
   if (!n1.value.length == 0 && !n2.value.length == 0) {
 
     if(n1.value.toLowerCase() == "jancell" || n2.value.toLowerCase() == "jancell"){
-      /* alert("Que haces loca.\n¿Por que pones mi nombre?"); */
-      result.innerText = "9999999%" + " de compatibilidad"
+      alert("Que haces loca.\n¿Por que pones mi nombre?");
     }else{
       result.innerText = frases() + " de compatibilidad";
     }
