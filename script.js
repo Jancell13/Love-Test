@@ -15,20 +15,19 @@ function n(a) {
     return a;
   }
 }
-
 function frases(options) {
   if (n() === 1) {
     options = "15%";
   } else if (n() === 2) {
     options = "27%";
   } else if (n() === 3) {
-    options = "9999%";
+    options = "93%";
   } else if (n() === 4) {
     options = "1%";
   } else if (n() === 5) {
     options = "75%";
   } else if (n() === 6) {
-    options = "93%";
+    options = "9999%";
   } else if (n() === 7) {
     options = "53%";
   } else if (n() === 8) {
@@ -40,7 +39,9 @@ function frases(options) {
   }
   return options;
 }
+
 btn.addEventListener("click", () => {
+
   console.log(n());
   if (!n1.value.length == 0 && !n2.value.length == 0) {
 
