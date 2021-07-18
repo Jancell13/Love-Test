@@ -17,7 +17,7 @@ body{
 .rect{
     background-color: rgb(208, 137, 255);
     padding: 5px;
-    width: 350px;
+    width: 320px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
