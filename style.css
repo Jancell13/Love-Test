@@ -1,42 +1,101 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Courgette&display=swap");
 
-body{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color: rgb(238, 151, 219);
-    background-image: url("img/corazónes128.png");
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(238, 151, 219);
+  background-image: url("img/corazónes128.png");
 }
-.container{
-    margin-top: 200px;
-    margin-left: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+  margin-top: 200px;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.rect{
-    background-color: rgb(208, 137, 255);
-    padding: 5px;
-    width: 320px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+.rect {
+  background-color: rgb(208, 137, 255);
+  padding: 5px;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
-.title{
-    font-size: 48px;
-    font-family: "Pacifico";
-    margin: 10px;
+.title {
+  font-size: 56px;
+  font-family: "Pacifico", cursive;
+  margin: 15px;
 }
-#result{
-    font: bold 16px "Quicksand" , sans-serif;
-    margin-bottom: 5px;
+#n1 {
+  font-size: 18px;
+  padding: 2px 5px;
+  margin: 15px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 5px;
 }
-#n1{
-    margin: 15px;
+#n2 {
+  font-size: 18px;
+  padding: 2px 5px;
+  margin: 15px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 5px;
 }
-#n2{
-    margin: 15px;
+.btnC {
+  background-color: rgb(208, 137, 255);
+  font-size: 20px;
+  padding: 5px;
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px rgb(100, 100, 100);
 }
-#btnC{
-    padding: 5px;
-    margin: 15px;
+.btnC:hover {
+  background-color: rgb(176, 116, 216);
+}
+.btnC:active {
+  background-color: rgb(176, 116, 216);
+  box-shadow: 0 3px rgb(70, 70, 70);
+  transform: translateY(2px);
+}
+#result {
+  margin: 10px;
+  font-size: 26px;
+  font-family: "Courgette", cursive;
+  display: none;
+  position: relative;
+  animation: slide .5s ease-in;
+}
+#loader {
+  left: 100%;
+  top: 100%;
+  width: 50px;
+  height: 50px;
+  margin: 10px 40%;
+  border: 10px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  display: none;
+  border-top: 10px solid rgb(110, 30, 160);
+  animation: spin 1.5s ease infinite;
+}
+@keyframes slide {
+    from{
+        top: -20px;
+        opacity: 0;
+    }
+    to{
+        top: 0px;
+        opacity: 1;
+    }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
