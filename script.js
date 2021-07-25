@@ -65,7 +65,6 @@ function clic() {
       n2.value.toLowerCase() == "jancell"
     ) {
       alert("Que haces loca.\n¿Por que pones mi nombre?");
-      /* result.innerText = "9999999%" + " de compatibilidad" */
     } else {
       activeLoader();
       desactiveLoader();
