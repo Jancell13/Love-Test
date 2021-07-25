@@ -17,13 +17,13 @@ function n(a) {
 }
 function sentence(options) {
   if (n() === 5) {
-    options = "75%";
+    options = "19%";
   } else if (n() > 5 && n() < 6) {
-    options = "15%";
+    options = "85%";
   } else if (n() === 6) {
     options = "9999%";
   } else if (n() > 6 && n() < 7) {
-    options = "27%";
+    options = "69%";
   } else if (n() === 7) {
     options = "53%";
   } else if (n() > 7 && n() < 8) {
@@ -31,9 +31,9 @@ function sentence(options) {
   } else if (n() === 8) {
     options = "42%";
   } else if (n() > 8 && n() < 9) {
-    options = "1%";
+    options = "75%";
   } else if (n() === 9) {
-    options = "69%";
+    options = "27%";
   } else if (n() === 10) {
     options = "38%";
   }
