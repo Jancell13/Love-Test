@@ -3,7 +3,7 @@ var n2 = document.getElementById("n2");
 var btn = document.getElementById("btnC");
 
 function n(a) {
-  var n3 = n1.value.trim() + n2.value.trim();
+  var n3 = n1.value.replace(/ /g, "") + n2.value.replace(/ /g, "");
   a = n3.length;
   if (n3.length > 10 && n3.length % 2 === 0) {
     a = n3.length / 2;
